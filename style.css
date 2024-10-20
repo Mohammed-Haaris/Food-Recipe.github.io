@@ -1,0 +1,149 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* content image  */
+.shadow-lg {
+  background-image: url(./assest/grilled-meat-skewers-chicken-shish-kebab-with-zucchini-tomatoes-red-onions.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150vh;
+  padding-top: 150px;
+}
+
+.para1 {
+  font-weight: bolder;
+  padding-top: 100px;
+}
+
+.title {
+  padding-top: 200px;
+}
+
+.img-logo {
+  width: 150px;
+  padding-left: 70px;
+}
+
+.navbar-nav {
+  margin-left: 50px;
+}
+
+.navbar {
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+}
+
+h1,
+h2 {
+  font: bolder;
+  font-family: nunito;
+  letter-spacing: 5px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease-in-out;
+  box-shadow: 0px 4px 8px rgba(2, 2, 2, 2);
+}
+
+.meal-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px; /* Spacing below the image */
+}
+
+.ingredients-list,
+.instructions-list {
+  list-style-type: decimal; /* Use numbered list for instructions */
+  padding-left: 20px; /* Indent list */
+  margin-bottom: 20px; /* Spacing below the list */
+}
+
+.ingredients-list li,
+.instructions-list li {
+  margin-bottom: 10px; /* Spacing between list items */
+}
+
+.meal-details {
+  margin-top: 20px;
+}
+
+.meal-instructions {
+  margin-top: 20px; /* Space between ingredients and instructions */
+}
+
+#loading-indicator {
+  display: none;
+  text-align: center;
+  margin-top: 20px;
+}
+section {
+  margin-top: 150px;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+#about-us {
+  padding: 60px 0;
+  background-color: #81c784; /* Light background for contrast */
+}
+
+#about-us h2 {
+  font-family: "raleway", sans-serif;
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+
+#about-us p {
+  font-family: "nunito", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: whitesmoke;
+}
+
+#about-us img {
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+/* contact us styling */
+#contact-us {
+  padding: 60px 0;
+  background-color: #f4f4f4;
+}
+
+#contact-us h2 {
+  font-family: "nunito", sans-serif;
+  font-size: 2.5rem;
+  color: #343a40;
+  margin-bottom: 40px;
+}
+
+#contact-us .form-control {
+  border-radius: 0;
+}
+
+#contact-us .btn-primary {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+#contact-us .btn-primary:hover {
+  background-color: #218838;
+}
+
+.social-icons img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
