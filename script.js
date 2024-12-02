@@ -172,7 +172,7 @@ function displayMealInfo(meal) {
   const mealDetailsDiv = $("<div></div>").addClass("meal-details");
 
   // Add meal image
-  const img = $("<img>").attr("src", meal.strMealThumb).addClass("meal-image");
+  const img = $("<img>").attr("src", meal.strMealThumb).addClass("meal-image img-fluid");
   mealDetailsDiv.append(img);
 
   // Add meal ingredients
